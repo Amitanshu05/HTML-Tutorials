@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+   <img src="https://imgs.search.brave.com/FYmsuChFcB46GmHEP9uO7qHz1b2vSK1YhJWr8s8m7sM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzE4LzA0LzYz/LzM2MF9GXzcxODA0/NjM2NF9rWGtTWGJG/dVZHeHNBNXVxZFlj/S0Q5SllIMlVrTjVi/Ui5qcGc" alt="no img"
+   width="200px"> 
+   <img src="./amitansh.jpg" alt="no img"
+   width="200px"> 
+   <picture>
+    <source media="(min-width: 650 px)" srcset="./amitansh.jpg">
+    <source media="(min-width: 600 px)" srcset="./amitanshu.jpg">
+    <img src="./amitansh.jpg" alt="">
+   </picture>
+   <!-- an image map generator -->
+   <img src="amitanshu.jpg" usemap="#image-map">
+
+   <map name="image-map">
+       <area onclick="one()" target="" alt="" title="" href="" coords="367,191,838,876" shape="rect">
+       <area onclick="two()" target="" alt="" title="" href="" coords="478,1207,768,1417" shape="rect">
+   </map>
+   <script>
+    function one(){
+        alert("you cliced on one")
+    }
+    function two(){
+        alert("you cliced on two")
+    }
+   </script>
+</body>
+</html>
